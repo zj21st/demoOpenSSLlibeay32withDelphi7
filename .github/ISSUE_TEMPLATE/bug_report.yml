@@ -1,0 +1,37 @@
+name: Bug report
+description: Report a reproducible problem in the maintained source tree
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not post vulnerabilities, private keys, credentials, or personal data here. Follow SECURITY.md for security reports.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Problem
+      description: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Delphi version, Windows version, and OpenSSL version/architecture
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Minimal steps using only disposable test data
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Output
+      description: Sanitized compiler output or error text
+      render: text

@@ -1,0 +1,20 @@
+# SPDX-License-Identifier: MIT
+name: Repository hygiene
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  hygiene:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Check maintained-tree policy
+        run: python3 scripts/check_repository.py
