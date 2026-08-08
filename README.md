@@ -164,3 +164,6 @@ MIT License does not relicense third-party or removed historical material.
 `src/legacy/libeay32.pas` remains under the separate license reproduced in its
 source header. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and
 [docs/PROVENANCE.md](docs/PROVENANCE.md) for the exact boundaries.
+
+> This product includes software developed by CSITA - University of Genoa
+> (Italy) (http://www.unige.it/)
