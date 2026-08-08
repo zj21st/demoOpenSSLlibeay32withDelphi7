@@ -1,4 +1,1 @@
-# RSA via OpenSSL libeay32
-delphi7，使用openssl中的libeay32.dll
-提供基于私钥/公钥的：1、RSA加密解密 2、SHA1/SHA256/SHA512摘要运算，3、Sha1withRSA/Sha256withRSA/Sha512withRSA签名
-其中签名可用于JWT规范
+This repository provides Delphi 7 developers with a practical OpenSSL/libeay32 integration for RSA encryption/decryption, SHA-1/SHA-256/SHA-512 hashing, and RSA signatures, including JWT-related signing. It has 21 GitHub stars and 7 forks. Its value is in supporting the legacy Delphi ecosystem, where reusable modern cryptography integration examples are relatively scarce, helping developers maintain and secure existing applications.
