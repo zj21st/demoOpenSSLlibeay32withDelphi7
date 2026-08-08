@@ -1,0 +1,55 @@
+# Delphi compiler and linker output
+*.dcu
+*.exe
+*.dll
+*.bpl
+*.dcp
+*.map
+*.rsm
+*.tds
+*.obj
+*.o
+*.ppu
+*.compiled
+*.res
+
+# Delphi IDE state and backup files
+*.ddp
+*.dof
+*.dsk
+*.cfg
+*.identcache
+*.local
+*.tvsconfig
+*.~*
+__history/
+ModelSupport_*/
+
+# Local build and test output
+/build/
+/out/
+/dist/
+
+# Key and certificate material
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+id_rsa
+id_rsa.pub
+id_dsa
+id_dsa.pub
+id_ecdsa
+id_ecdsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Editors and operating systems
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
